@@ -1,0 +1,48 @@
+baseURL: "https://dom-lee.github.io"
+title: Dom Lee
+paginate: 5
+theme: PaperMod
+
+menu:
+    main:
+        - identifier: tils 
+          name: TODAY I LEARNED
+          url: /tils/
+          weight: 10
+        - identifier: posts
+          name: POSTS
+          url: /posts/
+          weight: 20
+        - identifier: projects
+          name: PROJECTS
+          url: /projects/
+          weight: 30
+        - identifier: about
+          name: ABOUT
+          URL: /about/
+          weight: 40
+
+params:
+    homeInfoParams:
+        Title: "Hi there \U0001F44B"
+        Content: Welcome to Dongmyeong's blog
+
+    socialIcons:
+    - name: email
+      url: "mailto:shine9316@gmail.com"
+    - name: github
+      url: "https://github.com/dom-lee"
+    - name: instagram
+      url: "https://instagram.com/dom._.lee"
+    - name: linkedin
+      url: "https://linkedin.com/in/shine9316"
+
+    comments: true
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+enableRobotsTXT: true
